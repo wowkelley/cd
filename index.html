@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sarawut Wow Kelley</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/simplelightbox.min.css">
+    <script src="https://kit.fontawesome.com/55681afc70.js" crossorigin="anonymous"></script>
+    
+</head>
+<body id="home">
+
+    <nav id="navbar">
+            <h1 class="logo">SarawutKelley</h1>
+            <ul class="nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#galleryLink">Gallery</a></li>
+                <li><a href="#section-footer">Contact</a></li>
+            </ul>
+    </nav>
+
+    <!-- Showcase -->
+    <section id="section-a">
+        <div class="container">
+            <div>
+                <h1>Hi, I am an <span class="bg-light">Illustrator</span> and <span class="bg-light">Designer.</span> </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum totam ipsum ipsa debitis officia voluptatum.</p>
+                <a href="img/Sarawut Kelley Resume.pdf" target="blank" class="btn">Read More</a>
+            </div>
+            <img src="img/AlienPet.jpg" alt="">
+        </div>
+    </section>
+
+    <!-- Overlay Text -->
+    <section id="section-b">
+        <div class="overlay">
+            <div id="section-b-inner">
+                <h3>Keep It Simple</h3>
+                <h2>Great rule of thumb when designing.</h2>
+                <p>Simplicity is a key design principle. The easier something is to understand and use – the more likely it is to be adopted and engaged with.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="galleryLink">
+        <div class="gallery">
+            <a href="img/big/up.jpg" class="big"><img src="img/big/up.jpg" alt=""></a>
+            <a href="img/big/menu.jpg" class="big"><img src="img/menu.jpg" alt=""></a>
+            <a href="img/big/Garden of GethsemaneBEUT.jpg" class="big"><img src="img/Garden of GethsemaneBEUT.jpg" alt=""></a>
+            <a href="img/big/cooler.jpg" class="big"><img src="img/cooler.jpg" alt=""></a>
+            <a href="img/big/cowtown.jpg" class="big"><img src="img/cowtown.jpg" alt=""></a>
+            <a href="img/big/truck4.jpg" class="big"><img src="img/truck4.jpg" alt=""></a>
+            <a href="img/big/test 4.jpg" class="big"><img src="img/test 4.jpg" alt=""></a>
+            <a href="img/big/rocket.jpg" class="big"><img src="img/rocket.jpg" alt=""></a>
+            <a href="img/big/brochure_front.jpg" class="big"><img src="img/brochure_front.jpg" alt=""></a>
+            <a href="img/big/_BT_MOSES-Snap Art.jpg" class="big"><img src="img/_BT_MOSES-Snap Art.jpg" alt=""></a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section id="section-footer">
+        <div class="container">
+            <div>
+                <h3>Contact</h3>
+                <p>Lorem ipsum dolor sit.</p>
+                <form name="email-form" method="POST" data-netlify="true">
+                    <div class="email-form">
+                        <span class="form-control-wrap">
+                            <input type="email" name="email" id="email" size="40"
+                            class="form-control" placeholder="Enter email">
+                        </span>
+                        <button type="submit" class="form-control submit">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </section>
+    
+
+        <!-- Jquery CDN -->
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+
+    <script src="js/main.js"></script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="js/simple-lightbox.min.js"></script>
+    <script>
+      $(function() {
+        const $gallery = $('.gallery a').simpleLightbox();
+      })
+
+    </script>
+
+</body>
+</html>
